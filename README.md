@@ -17,6 +17,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `mkdir <dir>` | Create a directory |
 | `touch <file>` | Create an empty file |
 | `rm <file>` | Remove a file |
+| `rm -rvf <dir>` | Remove directory forcefully  |
 | `rm -r <dir>` | Remove directory recursively |
 | `cp <src> <dest>` | Copy files or directories |
 | `mv <src> <dest>` | Move or rename files/directories |
