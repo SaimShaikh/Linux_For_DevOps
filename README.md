@@ -30,6 +30,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | Command | Description |
 |--------|-------------|
 | `cat <file>` | Display file content |
+| `tree <file>` | Display file starture  |
 | `tac <file>` | Display content in reverse |
 | `more <file>` | View file one page at a time |
 | `less <file>` | Scrollable file viewer |
