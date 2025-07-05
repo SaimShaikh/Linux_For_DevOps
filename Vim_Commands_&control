@@ -86,3 +86,24 @@ Vim is a powerful text editor available in almost all Linux systems. Below are e
 1. Open a file:
    ```bash
    vim filename.txt
+# Vim Undo and Redo Commands
+
+Vim provides simple but powerful commands to **undo** and **redo** changes in your text files. These commands help you correct mistakes and restore your work efficiently.
+
+---
+
+## 🔹 Undo & Redo Commands
+
+| Command | Description |
+|--------|-------------|
+| `u` | Undo the **last change** |
+| `U` | Undo **all changes on the current line** (works in Normal Mode) |
+| `Ctrl + r` | Redo the last undone change |
+
+---
+
+## 🔹 Example Usage
+
+1. Open Vim and a file:
+   ```bash
+   vim file.txt
