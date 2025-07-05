@@ -214,9 +214,3 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `Ctrl + _` | Undo last action (bash 5+ only) |
 
 ---
-
-## 📚 Resources
-
-- [Linux Handbook](https://linuxhandbook.com/)
-- [Explainshell](https://explainshell.com/)
-- [tldr.sh](https://tldr.sh/)
