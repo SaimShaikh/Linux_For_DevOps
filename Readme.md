@@ -214,3 +214,26 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `Ctrl + _` | Undo last action (bash 5+ only) |
 
 ---
+# Linux Input/Output Redirection Operators
+
+In Linux, redirection operators are used to control where the **input comes from** and where the **output goes to**. These are essential tools in any Linux user’s workflow.
+
+---
+
+## 🔹 Redirection Symbols Explained
+
+| Symbol | Meaning | Example | Description |
+|------|---------|---------|-------------|
+| `>` | Redirect output to a file (**overwrite**) | `echo "Hello" > file.txt` | Saves the output to a file, replacing its content if it already exists. |
+| `>>` | Redirect output to a file (**append**) | `echo "Hello" >> file.txt` | Adds the output to the end of a file without removing the existing content. |
+| `<` | Redirect input from a file | `cat < file.txt` | Takes the contents of a file as input for a command. |
+| `<<` | Here Document (**multi-line input**) | See example below | Allows you to provide multiple lines of input directly in the command, ending with a specified delimiter. |
+
+---
+
+## 🔹 Detailed Examples
+
+### ➤ `>` Example
+```bash
+echo "Linux is powerful" > message.txt
+```
