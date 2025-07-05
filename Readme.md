@@ -149,6 +149,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `hostname` | Show hostname |
 | `top` | Show processes |
 | `uname -a` | Kernel info |
+| `lscpu` | Displays detailed information about the CPU architecture|
 
 ---
 
@@ -184,6 +185,33 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `nano <file>` | Simple text editor |
 | `vim <file>` | Advanced editor |
 | `code <file>` | Open in VSCode (if installed) |
+
+---
+
+# Linux Terminal Shortcuts Cheat Sheet
+
+| Shortcut | Description |
+|---------|-------------|
+| `Ctrl + A` | Move cursor to the **start** of the line |
+| `Ctrl + E` | Move cursor to the **end** of the line |
+| `Ctrl + U` | Delete from **cursor to start** of the line |
+| `Ctrl + K` | Delete from **cursor to end** of the line |
+| `Ctrl + W` | Delete the **previous word** |
+| `Ctrl + Y` | Paste the last cut text |
+| `Ctrl + C` | Terminate the current running process |
+| `Ctrl + D` | Logout from terminal / send **EOF** |
+| `Ctrl + Z` | Pause the current process (**send to background**) |
+| `Ctrl + L` | Clear the terminal screen (same as `clear`) |
+| `Ctrl + R` | Search through command history |
+| `Ctrl + P` / `Up Arrow` | Show the **previous command** |
+| `Ctrl + N` / `Down Arrow` | Show the **next command** |
+| `Alt + B` | Move **backward one word** |
+| `Alt + F` | Move **forward one word** |
+| `Tab` | Auto-complete files and commands |
+| `Tab Tab` | List all possible completions |
+| `!!` | Run the **last command again** |
+| `!abc` | Run the last command starting with `abc` |
+| `Ctrl + _` | Undo last action (bash 5+ only) |
 
 ---
 
