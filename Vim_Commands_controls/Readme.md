@@ -25,6 +25,7 @@ Vim is a powerful text editor available in almost all Linux systems. Below are e
 | `A` | Append at the end of the line |
 | `o` | Open a new line **below** |
 | `O` | Open a new line **above** |
+| `!<any commands>` | you can use any commands inside the vim |
 | `Esc` | Return to Normal Mode from Insert/Visual modes |
 
 ---
