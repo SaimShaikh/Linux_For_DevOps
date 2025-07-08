@@ -74,6 +74,8 @@ It ensures that **multiple users can securely access and operate the same system
 | `/etc/shadow`   | Contains encrypted passwords     | `sudo cat /etc/shadow`|
 
 #### Example of `/etc/passwd` entry:
+### `tail -n <number> /etc/passwd` to check user is created or not after that you can see the your user name which user created 
+
 
 
 **Explanation:**
