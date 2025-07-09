@@ -99,6 +99,14 @@ It ensures that **multiple users can securely access and operate the same system
 | Execute command as another user  | `sudo -u username command`  | `sudo -u john whoami`  |
 
 ---
+##⚙️ Common Options
+## 📊 Tables
+
+|  Option  | Description|
+| --- | --- |
+| -a|  Add a user to the group |
+| -d|  Delete a user from the group |
+| -m|  Set multiple users as the group's members (replaces current list)|
 
 ## ✅ Practical Example
 
