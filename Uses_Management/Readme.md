@@ -75,7 +75,7 @@ It ensures that **multiple users can securely access and operate the same system
 
 #### Example of `/etc/passwd` entry:
 #### `tail -n <number> /etc/passwd` to check user is created or not after that you can see the your user name which user created 
-
+### `/etc/shadow` or `tail -1 /etc/shadow` in this place where user password is stored as a normal user we can’t assess this location  
 
 
 **Explanation:**
