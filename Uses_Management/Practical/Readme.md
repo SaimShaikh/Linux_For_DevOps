@@ -215,7 +215,7 @@ finger saime
 ```
 ![Uploading Screenshot 2025-07-09 at 9.05.20 PM.png…]()
 
-### ✏️ Set user comment (full name)
+### ✏️ Set user comment (full name or you can write anything )
 ```bash
 sudo usermod -c "Saime Shaikh - DevOps Engineer" saime
 ```
