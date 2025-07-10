@@ -131,16 +131,16 @@ sudo gpasswd -A saime developers
 ```
 developers:x:1003:saime,john
 ```
-### comment user 
+### 👤 comment user 
 ``` bash 
 usermod -c "Your comment here" <username>
 ```
 
-### This command changes the shell of user saime to /sbin/nologin, preventing them from accessing the system via SSH or the terminal.
+### ❌ This command changes the shell of user saime to /sbin/nologin, preventing them from accessing the system via SSH or the terminal.
 ``` bash 
 usermod -s /sbin/nologin saime
 ```
-### Allow for login 
+### ✅ Allow for login 
 ``` bash 
 usermod -s /bin/bash <username>
 ```
