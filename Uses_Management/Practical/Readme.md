@@ -135,6 +135,9 @@ developers:x:1003:saime,john
 ``` bash 
 usermod -c "Your comment here" <username>
 ```
+### Output
+<img width="759" alt="Screenshot 2025-07-10 at 1 03 57 PM" src="https://github.com/user-attachments/assets/1c9ba4b8-983f-4b1b-854e-aa94e2978bbd" />
+
 
 ### ❌ This command changes the shell of user saime to /sbin/nologin, preventing them from accessing the system via SSH or the terminal.
 ``` bash 
