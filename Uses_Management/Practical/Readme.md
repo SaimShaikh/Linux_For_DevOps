@@ -104,6 +104,12 @@ Number of days of warning before password expires       : 7
 |----------------------------------------|-------------------------------------|
 | `sudo groupadd developers`             | Create new group                    |
 | `sudo groupdel developers`             | Delete a group                      |
+| `sudo gpasswd developers`              | assinge the password to the group   |
+
+### Verify the Password is Set
+``` bash
+sudo cat /etc/gshadow
+```
 
 ---
 
