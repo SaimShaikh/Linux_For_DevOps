@@ -166,6 +166,7 @@ developers:x:1003:saime,john
 | `-d`  | Delete a user                    | `sudo gpasswd -d user group`              |
 | `-m`  | Replace group members            | `sudo gpasswd -m user1,user2 group`       |
 | `-A`  | Set group admins                 | `sudo gpasswd -A admin1,admin2 group`     |
+| `-c`  | comment the user                 | `sudo usermod -c "your comment" <username>`|
 
 ---
 
