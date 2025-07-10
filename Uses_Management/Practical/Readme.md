@@ -171,6 +171,7 @@ developers:x:1003:saime,john
 | `-m`  | Replace group members            | `sudo gpasswd -m user1,user2 group`       |
 | `-A`  | Set group admins                 | `sudo gpasswd -A admin1,admin2 group`     |
 | `-c`  | comment the user                 | `sudo usermod -c "your comment" <username>`|
+| `-u`  | change user id                   | `sudo usermod -u 3000 saime , -u → Stands for user ID`|
 
 ---
 
