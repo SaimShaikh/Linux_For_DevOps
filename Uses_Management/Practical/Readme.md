@@ -70,7 +70,8 @@ This practical guide covers **essential Linux commands** for managing users, gro
 | `sudo chage -l saime`                  | Show password expiry info               |
 | `sudo chage -M 90 saime`               | Set password expiry to 90 days          |
 | `sudo chage -W 7 saime`                | Warn user 7 days before expiry          |
-| `sudo chage -I 7 saime`                | command is used to manage password aging policies for a user. -I <days> → Specifies the number of inactive days after a password expires before the account is permanently disabled.         |
+| `sudo chage -I 7 saime`                | command is used to manage password aging policies for a user. -I <days> → Specifies the number of inactive days after a password expires before the account is permanently disabled.|
+
 Example `chage -l saime` output:
 
 ```
