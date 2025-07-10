@@ -213,7 +213,8 @@ sudo yum install finger   # RedHat/CentOS
 ```bash
 finger saime
 ```
-![Uploading Screenshot 2025-07-09 at 9.05.20 PM.png…]()
+<img width="615" alt="Screenshot 2025-07-09 at 9 05 20 PM" src="https://github.com/user-attachments/assets/ece66bbe-0402-44e7-b8d8-a42b38c5679b" />
+
 
 ### ✏️ Set user comment (full name or you can write anything )
 ```bash
