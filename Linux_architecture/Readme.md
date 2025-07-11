@@ -1,5 +1,6 @@
 
-<img width="1536" height="1024" alt="Linux Operating System Architecture Diagram" src="https://github.com/user-attachments/assets/ec9bb754-c057-4e41-b8ba-174d8ff54bba" />
+<img width="515" height="364" alt="architecture-of-linux" src="https://github.com/user-attachments/assets/77e40ea8-a7ce-46d2-bc5b-74bce86a59b3" />
+
 # 🖥️ Linux Architecture Layers
 
 This document explains the different layers of a Linux-based operating system and their key functions.
