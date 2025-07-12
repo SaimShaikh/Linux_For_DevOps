@@ -103,3 +103,14 @@ ls -l filename
 | --- | 
 |chmod 755 <foldernam>|
 |chmod -R 755 <foldername> |
+
+### 🧪 Real-World Examples
+
+| Command                             | Description                                      |
+|-------------------------------------|--------------------------------------------------|
+| `chmod 700 secrets.txt`            | Only owner has full access (private file)        |
+| `chmod 644 public.txt`             | Owner can read/write, others can read            |
+| `chmod 777 script.sh`              | Full access to everyone ⚠️ (not recommended)     |
+| `chown saime file.txt`             | Change owner of file to `saime`                  |
+| `chgrp devops file.txt`            | Change group ownership to `devops`               |
+| `chmod -R 755 /home/saime/`        | Recursively give full access to owner, read-execute to others |
