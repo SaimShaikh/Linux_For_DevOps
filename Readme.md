@@ -11,6 +11,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 |--------|-------------|
 | `ls` | List directory contents |
 | `ls -l` | Long listing format |
+| `ll <file name >` | list the permission of specific file  |
 | `lsblk` | Linux is used to list block devices |
 | `ls -a` | List all files including hidden |
 | `cd <dir>` | Change directory |
