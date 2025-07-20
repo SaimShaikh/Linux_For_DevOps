@@ -15,6 +15,8 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `lsblk` | Linux is used to list block devices |
 | `ls -a` | List all files including hidden |
 | `cd <dir>` | Change directory |
+| `cmp <file1> <file2>` | compare both files  |
+| `diff <file1> <file2>` | find the difference between  both files  |
 | `pwd` | Print working directory |
 | `mkdir <dir>` | Create a directory |
 | `touch <file>` | Create an empty file |
