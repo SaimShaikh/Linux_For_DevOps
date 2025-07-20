@@ -26,6 +26,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `cp <src> <dest>` | Copy files or directories |
 | `mv <src> <dest>` | Move or rename files/directories |
 | `find <path> -name "<pattern>"` | Find files by name |
+| `locate <filename>` | Find files without path but before we need to use updatedb commands |
 
 ---
 
@@ -34,6 +35,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | Command | Description |
 |--------|-------------|
 | `cat <file>` | Display file content |
+| `which <command >` | It shows the full path of the executable of a command |
 | `tree <file>` | Display file starture  |
 | `tac <file>` | Display content in reverse |
 | `more <file>` | View file one page at a time |
@@ -137,8 +139,10 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | `tar -xvf file.tar` | Extract tarball |
 | `gzip <file>` | Compress a file |
 | `gunzip <file.gz>` | Decompress |
-| `zip <file.zip> <file>` | Create zip file |
+| `zip -r <output.zip> <foldername>` | The zip command use to zip directory .  `-r`	Recursive — includes all subfolders output.zip	Name of the zip file you want foldername	The folder you want to compress|
 | `unzip <file.zip>` | Extract zip file |
+| ` zip myfile.zip file1 file2 ` |zip the multiple file at same time |
+| `unzip -l <zipfilename>` | list the content without unzip the file|
 
 ---
 
@@ -163,6 +167,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 |--------|-------------|
 | `echo $SHELL` | Current shell |
 | `alias` | Show aliases |
+| `script  [filename] ` | The script command records a terminal session — everything you type and see — and saves it into a text file. It’s useful for creating logs, teaching materials, or debugging steps. To stop exit |
 | `history` | Show command history |
 | `export VAR=value` | Set environment variable |
 | `printenv` | List environment vars |
