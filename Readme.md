@@ -47,7 +47,7 @@ A comprehensive list of essential Linux commands with concise explanations — p
 | Command | Description |
 |--------|-------------|
 | `grep "text" <file>` | Search for text in file |
-| `egrep "text1 `|`text 2" <file>` | Multiple text Search  |
+| `egrep 'pattern ' <file>` | Search using extended regular expressions |
 | `grep -r "text" <dir>` | Recursive search |
 | `sort <file>` | Sort lines in a file |
 | `uniq <file>` | Remove duplicates |
