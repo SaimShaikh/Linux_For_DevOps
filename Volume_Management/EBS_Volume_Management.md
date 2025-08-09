@@ -49,7 +49,10 @@ ssh -i mykey.pem ec2-user@<EC2_PUBLIC_IP>
 lsblk
 ```
 
+
 <img width="456" height="103" alt="Screenshot 2025-08-09 at 5 22 16 PM" src="https://github.com/user-attachments/assets/be257c0a-1a2b-41d2-82cb-bdf49032cd44" />
+
+
 
 
 ```bash
@@ -64,10 +67,12 @@ ls
 
 ## Step 4 — Unmount the Volume
 
+
 ```bash
 cd ~
 sudo umount /<your directory created>
 ```
+
 
 ## Step 5 — Attach to Another EC2
 In AWS Console → Detach Volume from the first EC2.
