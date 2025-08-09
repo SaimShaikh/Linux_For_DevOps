@@ -40,6 +40,8 @@ This guide explains how to **create**, **attach**, **format**, **mount**, and **
 
 ### **Step 3 — Identify Volume in EC2**
 Connect with your EC2 instance:
+
+
 ```bash
 ssh -i mykey.pem ec2-user@<EC2_PUBLIC_IP>
 ```
@@ -48,6 +50,7 @@ lsblk
 ```
 
 <img width="456" height="103" alt="Screenshot 2025-08-09 at 5 22 16 PM" src="https://github.com/user-attachments/assets/be257c0a-1a2b-41d2-82cb-bdf49032cd44" />
+
 
 ```bash
 sudo mkfs.ext4 /dev/nvme1n1 (⚠ Warning: Formatting erases all existing data.
@@ -58,7 +61,9 @@ sudo touch file1.txt file2.txt
 ls
 ```
 
+
 ## Step 4 — Unmount the Volume
+
 ```bash
 cd ~
 sudo umount /<your directory created>
