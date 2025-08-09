@@ -2,6 +2,7 @@
 
 <img width="1218" height="626" alt="Screenshot 2025-08-09 at 4 58 31 PM" src="https://github.com/user-attachments/assets/6d7793c3-e50a-48c6-b5cc-f1425283a3f7" />
 
+---
 
 This guide explains how to **create**, **attach**, **format**, **mount**, and **move** an Amazon **EBS Volume** between EC2 instances running Amazon Linux.
 
