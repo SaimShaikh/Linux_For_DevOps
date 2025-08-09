@@ -15,16 +15,30 @@ On a Local Linux System:
 -Permissions – Root or sudo privileges to mount/unmount.
 -Device Recognition – The OS should detect the device (check with lsblk).
 
+
 ## On Cloud Platforms (e.g., AWS EC2):
+
 -When attaching and mounting EBS Volumes:
 -Same Region – The volume must be in the same AWS region as the EC2 instance.
 -Same Availability Zone (AZ) – EBS volumes are bound to a single AZ; both instance and volume must be in the same AZ.
 -Volume State – The volume must be in the available state before attaching.
 
-**Example:**
+
+**Steps:**
+
+## For Mounting 
 ```bash
+sudo mkfs.ext4 /dev/<diskname>
 sudo mount /dev/<Disk Mount> /<location>
 ```
+
+## For Unmounting 
+
+```bash
+sudo umount /dev/<diskname>
+```
+
+
 
 
 
