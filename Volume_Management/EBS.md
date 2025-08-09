@@ -1,6 +1,4 @@
----
-
-## What is EBS?
+# What is EBS?
 **EBS (Elastic Block Store)** is a **block storage service** provided by AWS that is used with **EC2 instances**.  
 It works like a virtual hard drive for your cloud server — you can attach, detach, resize, and back it up independently of the instance.
 
