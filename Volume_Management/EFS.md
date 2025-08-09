@@ -1,4 +1,5 @@
-<img width="680" height="448" alt="dia" src="https://github.com/user-attachments/assets/42418a84-dfc3-40ba-b1b8-70648be0072c" />
+<img width="1239" height="749" alt="Screenshot 2025-08-09 at 5 45 16 PM" src="https://github.com/user-attachments/assets/eac81ed4-1c4a-4ef3-9a4d-4d0ce3b8b3f0" />
+
 
 # Understanding Amazon Elastic File System (EFS) with NFS
 
