@@ -10,18 +10,18 @@ In Linux:
 ## Basic Requirements for Mounting a Volume
 
 On a Local Linux System:
--Formatted Volume – Must have a supported filesystem (e.g., ext4, xfs).
--Mount Point – An empty directory where the volume will be mounted.
--Permissions – Root or sudo privileges to mount/unmount.
--Device Recognition – The OS should detect the device (check with lsblk).
+- Formatted Volume – Must have a supported filesystem (e.g., ext4, xfs).
+- Mount Point – An empty directory where the volume will be mounted.
+- Permissions – Root or sudo privileges to mount/unmount.
+- Device Recognition – The OS should detect the device (check with lsblk).
 
 
 ## On Cloud Platforms (e.g., AWS EC2):
 
--When attaching and mounting EBS Volumes:
--Same Region – The volume must be in the same AWS region as the EC2 instance.
--Same Availability Zone (AZ) – EBS volumes are bound to a single AZ; both instance and volume must be in the same AZ.
--Volume State – The volume must be in the available state before attaching.
+- When attaching and mounting EBS Volumes:
+- Same Region – The volume must be in the same AWS region as the EC2 instance.
+- Same Availability Zone (AZ) – EBS volumes are bound to a single AZ; both instance and volume must be in the same AZ.
+- Volume State – The volume must be in the available state before attaching.
 
 
 **Steps:**
