@@ -38,6 +38,10 @@ Linux often uses **LVM (Logical Volume Manager)** for advanced volume management
    Can be resized without affecting the entire disk.
 
 ---
+<img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/672c9825-0619-447b-afe2-e5d950b72ae0" />
+
+<img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/1d690b68-89ef-4c69-a08d-47ba7ce55c3d" />
+
 
 ## SSD vs HDD (Comparison Table)
 
