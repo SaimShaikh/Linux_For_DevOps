@@ -16,7 +16,6 @@ On a Local Linux System:
 -Device Recognition – The OS should detect the device (check with lsblk).
 
 ## On Cloud Platforms (e.g., AWS EC2):
-
 -When attaching and mounting EBS Volumes:
 -Same Region – The volume must be in the same AWS region as the EC2 instance.
 -Same Availability Zone (AZ) – EBS volumes are bound to a single AZ; both instance and volume must be in the same AZ.
@@ -24,8 +23,9 @@ On a Local Linux System:
 
 **Example:**
 ```bash
-sudo mount /dev/sdb1 /mnt/data
+sudo mount /dev/<Disk Mount> /<location>
 ```
+
 
 
 
