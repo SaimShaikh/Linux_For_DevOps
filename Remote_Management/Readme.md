@@ -24,8 +24,22 @@ Security and convenience. SSH’s biggest strength is security. It encrypts all 
 🔹 Versatility: In one tool you get secure shell logins, file transfers, and even tunnels, which is very convenient for many tasks.
 
 ## ⚙️ How SSH Works (in simple terms)
+<img width="1600" height="1332" alt="image" src="https://github.com/user-attachments/assets/5b2ad988-6173-4ab8-8f2b-96f25c840126" />
+
+- 🟢Here is what really happens under the hood🟢
+
+- ‼️Your local SSH client prepares your credentials and starts a handshake.
+
+- ‼️Your request travels across the network to AWS.
+
+- ‼️Security Groups & NACLs decide if you’re even allowed in.
+
+- ‼️The EC2 instance verifies your identity using your public key.
+
+- ‼️Only then is a fully encrypted session opened for you to work securely.
 
 When you run an SSH command (e.g. ssh [email protected]), here’s what happens under the hood in very simple terms:
+
 🔹 Client connects: Your computer (the SSH client) reaches out to the remote computer (the SSH server).
 
 🔹Key exchange: The server sends its public key (think of it as a padlock). Your client checks that key to make sure it’s talking to the right machine.
