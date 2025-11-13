@@ -1,4 +1,3 @@
-# Bash and Sh - Shell Scripting Guide
 
 ## Welcome! 👋
 
