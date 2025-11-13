@@ -470,14 +470,7 @@ sh myscript.sh
 
 ---
 
-## Useful Resources
 
-- **Bash Manual**: https://www.gnu.org/software/bash/manual/
-- **POSIX Shell Standard**: https://pubs.opengroup.org/onlinepubs/9699919799/
-- **ShellCheck**: Online shell script validator
-- **GitHub Scripts**: Look at production scripts to learn best practices
-
----
 
 **Happy Scripting! 🚀**
 
