@@ -337,31 +337,6 @@ echo "✅ Nginx installed and started!"
 
 ---
 
-## DevOps Use Case Examples
-
-### Kubernetes Deployment Script (Bash)
-
-```bash
-#!/bin/bash
-# Deploy application to Kubernetes
-
-set -e  # Exit on error
-
-APP_NAME="myapp"
-IMAGE="myapp:1.0"
-
-echo "🚀 Building Docker image..."
-docker build -t $IMAGE .
-
-echo "📤 Pushing to registry..."
-docker push $IMAGE
-
-echo "🎯 Deploying to Kubernetes..."
-kubectl set image deployment/$APP_NAME $APP_NAME=$IMAGE
-kubectl rollout status deployment/$APP_NAME
-
-echo "✅ Deployment complete!"
-```
 
 ### Portable System Configuration (Sh)
 
