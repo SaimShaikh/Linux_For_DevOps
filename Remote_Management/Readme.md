@@ -141,5 +141,7 @@ It creates:
 |     ~/.ssh/id_rsa    | 🔐 Private Key (keep secret)               |
  |  ~/.ssh/id_rsa.pub| 📬 Public Key (can share)|
 
+
+[Click To Watch Video](https://youtu.be/s-vhqtyUF4I?si=dFksg3I2aIp3KpKp)
 	
 
