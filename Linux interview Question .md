@@ -470,6 +470,7 @@ using tar and scp commands. This automation saved time and reduced the risk of
 errors compared to performing the task manually.
 
 ## Q39 Write a script for the backups
+```bash
 #!/bin/bash
 # folder to backup
 SOURCE="/home/user/data"
@@ -482,6 +483,8 @@ mkdir -p $DEST
 # create backup
 tar -czf $DEST/backup-$DATE.tar.gz $SOURCE
 echo "Backup completed"
+
+```
 
 ## Q40 what is cron tab
 Crontab is a Linux scheduler used to automate tasks by running commands or scripts
