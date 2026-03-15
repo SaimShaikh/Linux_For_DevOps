@@ -292,7 +292,7 @@ features, and modern file system support.
 
 
 ## Q25 tell me about different type of file systems
-1️⃣ EXT File Systems (Most Common)
+- 1️⃣ EXT File Systems (Most Common)
 🔹 EXT4 (Most used ✅)
 • Default Linux file system
 • Fast, stable, reliable
@@ -305,7 +305,8 @@ Other EXT versions:
 • EXT3 → journaling added
 Interview tip:
 EXT4 is the standard Linux file system.
-2️⃣ XFS (High-performance)
+
+- 2️⃣ XFS (High-performance)
 • Designed for large files
 • Very fast I/O
 • Excellent for databases
@@ -315,7 +316,8 @@ Used in:
 • Large production servers
 Downside:
 • Shrinking is difficult
-3️⃣ Btrfs (Modern & Advanced)
+
+- 3️⃣ Btrfs (Modern & Advanced)
 • Snapshot support
 • Built-in RAID
 • Compression
@@ -324,7 +326,8 @@ Used in:
 • Modern Linux setups
 • Advanced storage use cases
 Still evolving.
-4️⃣ FAT / FAT32
+
+- 4️⃣ FAT / FAT32
 • Simple file system
 • Compatible with Windows, Linux, macOS
 • No permissions
@@ -332,13 +335,15 @@ Still evolving.
 Used in:
 • USB drives
 • Pen drives
-5️⃣ NTFS
+
+- 5️⃣ NTFS
 • Windows file system
 • Supports large files
 • Linux can read/write NTFS
 Used when:
 • Sharing disks with Windows
-6️⃣ Swap File System
+
+- 6️⃣ Swap File System
 • Used as virtual memory
 • Helps when RAM is full
 Used for:
@@ -346,7 +351,8 @@ Used for:
 • System stability
 Command example:
 swapon -s
-7️⃣ Network File Systems
+
+- 7️⃣ Network File Systems
 🔹 NFS
 • Linux ↔ Linux sharing
 🔹 CIFS / SMB
@@ -354,7 +360,8 @@ swapon -s
 Used in:
 • Enterprise environments
 • Shared storage
-8️⃣ Virtual / Pseudo File Systems
+
+- 8️⃣ Virtual / Pseudo File Systems
 These don’t store real data.
 File
 System Purpose
