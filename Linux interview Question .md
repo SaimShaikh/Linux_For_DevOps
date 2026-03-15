@@ -9,16 +9,21 @@ The Linux kernel is the core component of the Linux operating system that acts a
 the main interface between a computer's hardware and its software processes. It
 manages system resources and handles communication between hardware
 components and applications, ensuring efficient and secure operation
+
 Primary Functions
 The kernel performs four critical jobs that make the operating system functional:
-• Memory management: Tracks how much memory is used, what data is stored
+
+- Memory management: Tracks how much memory is used, what data is stored
 where, and allocates memory to processes as needed
-• Process management: Determines which processes can use the CPU, when,
+
+- Process management: Determines which processes can use the CPU, when,
 and for how long, while scheduling and executing processes fairly
-• Device drivers: Acts as a mediator between hardware devices and software
+
+- Device drivers: Acts as a mediator between hardware devices and software
 processes, providing a standardized way for different hardware types to
 interact with the OS
-• Network Management :Network management in Linux involves both kernel-
+
+- Network Management :Network management in Linux involves both kernel-
 level packet processing and system-level configuration tools that enable
 devices to connect, communicate, and maintain network connectivity.
 
@@ -27,6 +32,7 @@ Sh stands for "Shell" and is also called the Bourne Shell. It's the original Uni
 created by Stephen Bourne in the 1970s. A shell is a program that acts as an interface
 between you and the operating system. It interprets commands you type and tells the
 operating system what to do.
+
 Key Characteristics
 - POSIX Compliant: Sh follows the POSIX (Portable Operating System Interface) standard, a set of rules that makes shells compatible across different Unix-like operating systems
 - Minimal Features: Designed to be simple, lightweight, and basic
